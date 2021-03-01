@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /*562.5% = 90px = 5.625em - 16px=100%=1em=1rem*/
+  color: #fff3e6;
+  margin: 50px auto 0 auto;  /*margin:top right bottom left*/
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #6155a6;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #a685e2;
+  margin-bottom: 0;
+    line-height: 2;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #a685e2;
+  border-width: 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+
+}
+
+.BUTTON_LRO {
+   background: #A685E2;
+   background-image: -webkit-linear-gradient(top, #A685E2, #6155A6);
+   background-image: -moz-linear-gradient(top, #A685E2, #6155A6);
+   background-image: -ms-linear-gradient(top, #A685E2, #6155A6);
+   background-image: -o-linear-gradient(top, #A685E2, #6155A6);
+   background-image: -webkit-gradient(to bottom, #A685E2, #6155A6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFE6E6;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1rem;
+   font-weight: 100;
+   margin: 10px auto 10px auto;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 10px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #A685E2 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_LRO:hover {
+   border: solid #6155A6 1px;
+   background: #6155A6;
+   background-image: -webkit-linear-gradient(top, #6155A6, #A685E2);
+   background-image: -moz-linear-gradient(top, #6155A6, #A685E2);
+   background-image: -ms-linear-gradient(top, #6155A6, #A685E2);
+   background-image: -o-linear-gradient(top, #6155A6, #A685E2);
+   background-image: -webkit-gradient(to bottom, #6155A6, #A685E2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.footer-p {
+  color: #6155a6;
+}
+
+.whatapp {
+  margin-bottom: 5px;
+}
+
+.profilePic {
+  width: 300px;
+  height: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.recipes-pics {
+  width: 35%;
+  float: left;
+  padding-right: 30px;
+}
+
+
+.cookies-pics {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+
+.credit {
+  font-size: 2px;
+}
+
+.top-container {
+  background-color: #ffabe1;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  /*border: solid 10px;*/
+}
+
+.middle-container {
+
+  background-color: #ffe6e6;
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #a685e2;
+  padding-top: 5px;
+}
+
+.skill-row {
+  width: 50%;
+  /* display: inline-block; */
+  margin: auto auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cake {
+  width: 400px;
+  height: 300px;
+}
